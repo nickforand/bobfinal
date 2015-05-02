@@ -332,7 +332,7 @@ if (isset($_POST["btnSubmit"])) {
                     <legend>Please complete the following form</legend>
 
                     <fieldset class="contact">
-                        <legend>Opinion Questions</legend>
+                        <legend>Contact Information</legend>
                         
                             
                                    
@@ -361,7 +361,10 @@ if (isset($_POST["btnSubmit"])) {
                                    tabindex="120" maxlength="45" placeholder="Enter a valid email address"
                         <?php if ($emailERROR) print 'class="mistake"'; ?>
                                    onfocus="this.select()">
+                                   
                         </label>
+                        <fieldset class="contact">
+                        <legend>Opinion Questions</legend>
                         <fieldset  class="listbox">	
                         <label for="lstAlbums">Favorite Album of 2014</label>
                         <select id="lstAlbums" 
