@@ -412,8 +412,8 @@ if (isset($_POST["btnSubmit"])) {
                     <?php if($future=="frank") print 'checked'?>
                         tabindex="200">Frank Ocean</label>
                 <label><input type="radio" 
-                  id="radFuture" 
-                  name="radFutureKanye" 
+                  id="radFutureKanye" 
+                  name="radFuture" 
                   value="kanye"
                   <?php if($future=="kanye") print 'checked'?>
                   tabindex="210">Kanye West</label>
