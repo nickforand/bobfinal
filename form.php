@@ -361,7 +361,6 @@ if (isset($_POST["btnSubmit"])) {
                                    tabindex="120" maxlength="45" placeholder="Enter a valid email address"
                         <?php if ($emailERROR) print 'class="mistake"'; ?>
                                    onfocus="this.select()">
-                                   
                         </label>
                         <fieldset class="contact">
                         <legend>Opinion Questions</legend>
@@ -413,7 +412,7 @@ if (isset($_POST["btnSubmit"])) {
                         tabindex="200">Frank Ocean</label>
                 <label><input type="radio" 
                   id="radFutureKanye" 
-                  name="radFuture" 
+                  name="radFutureKanye" 
                   value="kanye"
                   <?php if($future=="kanye") print 'checked'?>
                   tabindex="210">Kanye West</label>
