@@ -1,7 +1,8 @@
 <?php 
- include "header.php";
-include "nav.php";
 include "top.php";
+include "header.php";
+include "nav.php";
+
 ?>
 
 
