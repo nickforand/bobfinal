@@ -12,3 +12,6 @@ You can find info on past albums of 2014, albums that have been released this ye
 Also you will find other music suggestions in the About Us page that are most totally worth a look up.
 </p>
 </body>
+<footer>
+  include "footer.php"
+</footer>
