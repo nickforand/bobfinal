@@ -1,0 +1,95 @@
+body{
+background-color:blueviolet;
+ 
+}
+
+p{
+    color:white;  
+}
+
+content{
+    border-color: red;
+    border: thick solid red;
+}
+
+p#nav{
+    
+    display:inline;
+}
+
+h1{
+    color:red;
+    font-size:72px;
+    
+}
+
+/*****************     form section                ****************************/
+#form article#main{
+    float: none;
+    margin: auto; /* because of the fixed width this centers the form */
+    text-align: left;
+    width: 600px; /* not repsonive but fixed */
+}
+
+/* need to clear any floats that may exist */
+fieldset{
+    border: 1px solid #00498e;
+    clear: both;  
+}
+/* just pushes content to left side of the box. */
+fieldset.contact{
+    float: left;
+}
+/* when you look at the labels this pushes then next to the input and right
+aligns them. Display block means they are each on their own line. */
+fieldset.contact label{
+    display: block;
+    text-align: left /* pushes the text to the right where they line up */
+        /* the float left above pushes everything back to the left*/
+}
+
+fieldset.contact input{
+    width: 15em; /* works with above to be the same size for the boxes */
+}
+
+fieldset.buttons{
+    border: none;
+}
+
+fieldset.wrapper {
+    border: 0;
+    margin: auto;
+}
+
+fieldset.wrapper legend {
+    color: whitesmoke;
+    font-size: 1.2em;
+    //font-weight: bold;
+    margin-top: 10px;
+}
+
+fieldset.wrapper > legend {
+    /* i only want the first legend ie if it follows the class wrapper */
+    font-size: 2em;
+}
+
+
+
+label {
+    color: whitesmoke;
+    display: block;
+    font-size: .9em;
+    //font-weight: bold;
+}
+/* style the errors in the form so they are visible */
+.mistake {
+    color: whitesmoke;
+    background-color:red;
+    border: thick solid black;
+}
+
+/* style the list of errors that will show before the form */
+#errors ol li{
+    color: whitesmoke;
+    background-color:red;
+}
