@@ -12,10 +12,13 @@ content{
     border: thick solid red;
 }
 
-p#nav{
-    
-    display:inline;
+p.nav{
+     padding: 10px;
+    display:inline-block;
+    color:white;
 }
+
+
 
 h1{
     color:red;
@@ -64,11 +67,11 @@ fieldset.wrapper {
 fieldset.wrapper legend {
     color: whitesmoke;
     font-size: 1.2em;
-    //font-weight: bold;
+    
     margin-top: 10px;
 }
 
-fieldset.wrapper > legend {
+fieldset.wrapper legend {
     /* i only want the first legend ie if it follows the class wrapper */
     font-size: 2em;
 }
@@ -79,7 +82,6 @@ label {
     color: whitesmoke;
     display: block;
     font-size: .9em;
-    //font-weight: bold;
 }
 /* style the errors in the form so they are visible */
 .mistake {
@@ -92,4 +94,17 @@ label {
 #errors ol li{
     color: whitesmoke;
     background-color:red;
+}
+
+.header img {
+  float: left;
+  width: 75px;
+  height: 50px;
+  background: #555;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
 }
